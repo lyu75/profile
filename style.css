@@ -3,10 +3,47 @@ body{
   color: white;
   text-align: center;
 }
+.large-text{
+  font-size: 45px;
+}
+.light{
+  font-weight: light;
+}
+.titillium{
+  font-family: 'titillium web';
+}
 .card{
-  margin: 20px auto;
+  margin: 50px auto;
   padding: 20px 40px;
-  background-color: rgba(100,100,100,0.3);
+}
+.card-large{
+  margin: 30px auto;
+  padding: 180px 40px;
+}
+.card-small{
+  margin: 30px auto;
+  padding: 10px 40px;
+}
+.b1{
+  background-image: linear-gradient(rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 50%), url("images/b3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.smaller-width{
+  width: 600px;
+}
+
+.glow-text{
+  text-shadow: 0px 0px 4px #fff, 0px 0px 5px #ccc;
+}
+.glow-box{
+  box-shadow: 0px 0px 50px 0px rgba(255,255,255,0.6);
+}
+
+.b2{
+ background-image: linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.7) 50%), url("images/b4.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .container{}
 @media (max-width: 960px){
@@ -21,11 +58,11 @@ body{
 }
 .circle{
   border-radius: 50%;
-  height: 200px;
+  height: 150px;
 }
 
-.letter-spacing-30{
-  letter-spacing: 30px;
+.letter-spacing-50{
+  letter-spacing: 50px;
 }
 .letter-spacing-15{
   letter-spacing: 15px;
@@ -34,7 +71,7 @@ body{
   letter-spacing: 5px;
 }
 .transparent-text{
-  color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.8);
 }
 .no-list-deco ul{
   list-style: none
