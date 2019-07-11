@@ -13,8 +13,11 @@ body{
   font-family: 'titillium web';
 }
 .card{
-  margin: 50px auto;
-  padding: 68px 40px;
+  margin: 160px auto;
+  padding: 100px 100px;
+}
+.card:hover{
+  box-shadow: 0px 0px 100px 0px rgba(255,255,255,0.4);
 }
 .card-large{
   margin: 30px auto;
@@ -42,6 +45,9 @@ body{
 .glow-box{
   box-shadow: 0px 0px 50px 0px rgba(255,255,255,0.6);
 }
+.subtle-glow-box{
+  box-shadow: 0px 0px 100px 0px rgba(255,255,255,0.4);
+}
 
 .b2{
  background-image: linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.7) 50%), url("images/b4.jpg");
@@ -59,9 +65,12 @@ body{
 .center_text{
   text-align: center;
 }
+
 .circle{
-  border-radius: 50%;
+  width: 150px;
   height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .letter-spacing-50{
@@ -73,8 +82,11 @@ body{
 .letter-spacing-5{
   letter-spacing: 5px;
 }
+.letter-spacing-2{
+  letter-spacing: 2px;
+}
 .transparent-text{
-  color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.6);
 }
 .no-list-deco ul{
   list-style: none
